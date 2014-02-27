@@ -224,6 +224,9 @@
 
 	  ga('create', 'UA-48451452-1', 'meganlab8.herokuapp.com');
 	  ga('send', 'pageview');
+	  $('#button').on('click', function() {
+  		ga('send', 'event', 'like', 'click');
+	  });
 	  ga('send', 'event', 'like', 'click');
 
 	</script>
