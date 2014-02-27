@@ -12,3 +12,7 @@ function initializePage() {
 	// your code here
 }
 
+$('#button').on('click', function() {
+      ga('send', 'event', 'like', 'click');
+});
+
